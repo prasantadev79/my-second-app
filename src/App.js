@@ -12,7 +12,7 @@ class App extends React.Component {
     return (
       <div className="pl-3">
         <h2>1. Welcome to App Component...</h2>
-        <UserProvider value="$1,000">
+        <UserProvider value="$2,000">
         <Employee></Employee>
         </UserProvider>
         <Tabledemo/>
